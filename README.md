@@ -167,7 +167,7 @@ Automation...
 
 How you achieve this automation is largely up to you. My personal bias is for tools that are commonly found on Linux systems and tools that I know well.
 
-I am a big fan of writing shell scripts and stitching things together with a Makefile. This is probably because I have a long history of working on *nix systems. Do what works for you and your team, but keep it simple. Baroque things tend to break more easily. Mechanical sympathy! 
+I am a big fan of writing shell scripts and stitching things together with a Makefile. This is probably because I have a long history of working on *nix systems. Do what works for you and your team, but keep it simple. Baroque things tend to break more easily. 
 
 Here is a sample [Makefile](Makefile) for this project.
 
@@ -258,7 +258,7 @@ fizzbuzz = [
 
 #### Automation ####
 
-Use this as a force multiplier and to increase the reliability and exactness of each part of your development workflow.
+Use this as a force multiplier and to increase the reliability and precision of each part of your development workflow.
 
 #### Documentation ####
 
@@ -268,7 +268,7 @@ Do it as you go. Document modules, classes, and functions as you create them. Th
 
 #### Understand logging and monitoring ####
 
-Good logging and enabling application monitoring is part of your job as a software engineer. This can really set you and the systems you help to build apart from the rest of the crowd. Educate yourself on these topics. Don't automatically settle for the way you see things being done; there's almost certainly a better way.
+Good logging and enabling application monitoring is part of our job as software engineers. This can really set you and the systems you help to build apart from the rest of the crowd. Educate yourself on these topics. Don't automatically settle for the way you see things being done; there's almost certainly a better way.
 
 Like a lot of these general recommendations, this could be an entire workshop in and of itself. To get you thinking about the possibilities, [listen to this talk by consummate engineer Kelsey Hightower](https://vimeo.com/173610242).
 
