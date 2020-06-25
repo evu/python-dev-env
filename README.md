@@ -163,11 +163,11 @@ Automation...
 - allows iterative refinement
 - saves time 
 - minimizes cognitive overhead
-- portable to other projects
+- is portable to other projects
 
-How you achieve this automation is largely up to you. My bias is for tools that are commonly found on Linux systems and tools that I know well.
+How you achieve this automation is largely up to you. My personal bias is for tools that are commonly found on Linux systems and tools that I know well.
 
-I am a big fan of writing shell scripts and stitching things together with a Makefile. This is probably because I have a long history of working on *nix systems.
+I am a big fan of writing shell scripts and stitching things together with a Makefile. This is probably because I have a long history of working on *nix systems. Do what works for you and your team, but keep it simple. Baroque things tend to break more easily. Mechanical sympathy! 
 
 Here is a sample [Makefile](Makefile) for this project.
 
@@ -264,19 +264,27 @@ Use this as a force multiplier and to increase the reliability and exactness of 
 
 It's not optional.
 
-Do it as you go. Document functions as you write them. The project should always have an up-to-date README with all the info a new dev needs to jump into the project and get a application stack running without any other assistance.
+Do it as you go. Document modules, classes, and functions as you create them. The project should always have an up-to-date README with all the info a new dev needs to jump into the project and get an application stack running without any other assistance.
+
+#### Understand logging and monitoring ####
+
+Good logging and enabling application monitoring is part of your job as a software engineer. This can really set you and the systems you help to build apart from the rest of the crowd. Educate yourself on these topics. Don't automatically settle for the way you see things being done; there's almost certainly a better way.
+
+Like a lot of these general recommendations, this could be an entire workshop in and of itself. To get you thinking about the possibilities, [listen to this talk by consummate engineer Kelsey Hightower](https://vimeo.com/173610242).
+
+[The Twelve-Factor App: Logs](https://12factor.net/logs)
 
 #### Build a toolkit ####
 
-You should maintain a personal toolkit that contains functions, code snippets, examples, etc. that you find yourself using again and again in a variety of different tasks and jobs.
+Maintain a personal toolkit that contains functions, code snippets, examples, etc. that you find yourself using again and again in a variety of different tasks and jobs.
 
 #### Make your dev environment portable ####
 
-Maintain the configs in VCS or something that allows to quickly and easily land on a brand new box and have a working dev environment that is customized to your preferences.
+Maintain the configs for your dev environment (e.g. vscode config file, vim config) in VCS or something that allows to quickly and easily land on a brand new box and have a working dev environment that is customized to your preferences.
 
 #### Read good code ####
 
-It is critical for your development as a good programmer that you read good code written by many different people. Set aside time each day to read through some code for projects that are good examples of Python. There are suggestions in the guide below for some projects; reading through the Python standard library is also a great idea. 
+It is critical for one's development as a programmer to read good code written by many different people. Set aside time each day to read through some code for projects that are good examples of Python. There are suggestions in the guide below for some projects; reading through the Python standard library is also a great idea. 
 
 #### Hitchhiker's Guide to Python ####
 
