@@ -36,9 +36,6 @@ coverage:
 	 $(TEST_COVERAGE_CMD) html
 	 $(ENV_PATH)/bin/python -mwebbrowser file://$(PWD)/htmlcov/index.html
 
-run-wsgi:
-	$(ENV_PATH)/bin/gunicorn --log-file=server.log --log-level=info -w 4 -b 127.0.0.1:5000 run
-
 qc: format-code lint-code lint-docstring
 
 lint-code:
@@ -52,7 +49,7 @@ lint-docstring:
 
 # NON-PROD ONLY: Run the application for local development in debug mode
 run:
-	gunicorn -b $(LISTEN_IP):$(LISTEN_PORT) $(PACKAGE_NAME):__hug_wsgi__
+	$(ENV_PATH)/bin/gunicorn -b $(LISTEN_IP):$(LISTEN_PORT) $(PACKAGE_NAME):__hug_wsgi__
 
 docker: build
 

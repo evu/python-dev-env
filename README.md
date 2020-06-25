@@ -226,6 +226,8 @@ make lint-docstring
 make test
 ```
 
+Use [pytest fixtures](https://docs.pytest.org/en/latest/fixture.html#fixture) to initialize test functions by setting up services, state, or other environment configuration.
+
 ### Checking code coverage ###
 
 [See this Makefile target](Makefile):
